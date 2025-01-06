@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Pagina de inicio</h1>
-    
+    <a href="index.php">Formulario de registro</a>
 </body>
 </html>
