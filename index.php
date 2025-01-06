@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Este es el inicio broo</title>
 </head>
 <body>
     <form action="logica.php" method="POST">
