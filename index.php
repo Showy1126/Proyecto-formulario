@@ -6,7 +6,7 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="" method="POST">
+    <form action="logica.php" method="POST">
         <h1>Formulario de registro</h1>
         <span>Nombre</span><br>
         <input type="text" name="nombre" required><br>
