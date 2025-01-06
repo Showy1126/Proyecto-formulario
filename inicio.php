@@ -8,8 +8,10 @@
 </head>
 <body>
     <main>
-        <h1>Pagina de inicio</h1>
-        <a href="index.php">Formulario de registro</a>
+        <div class="container">
+            <h1>Pagina de inicio</h1>
+            <a href="index.php">Formulario de registro</a>
+        </div>
     </main>
 </body>
 </html>

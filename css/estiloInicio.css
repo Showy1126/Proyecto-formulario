@@ -1,5 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+main .container {
+    height: 100px;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container h1 {
+    margin-bottom: 5px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 131, 118);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.container a:hover {
+    background: rgb(231, 119, 107);
+
 }
