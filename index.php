@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Este es el index</title>
     <link rel="stylesheet" href="./css/estiloIndex.css">
+    <link rel="stylesheet" href="./css/bulma.min.css">
 </head>
 <body>
     <main>
+    <div class="container">
+  <div class="notification is-primary">
+    This container is <strong>centered</strong> on desktop and larger viewports.
+  </div>
+</div>
     <form action="logica.php" method="POST">
         <h1>Formulario de registro</h1>
         <span>Nombre</span><br>
@@ -24,7 +30,7 @@
             <option value="femenino">Femenino</option>
         </select><br><br>
         <div class="boton-container">
-            <input type="submit">
+        <button class="button is-success is-light">Success</button>
         </div>
     </form>
     </main>
